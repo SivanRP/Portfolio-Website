@@ -14,11 +14,10 @@
 
 @media screen and (max-width: 1200px) {
   #desktop-nav {
-    display: none; /* Ensures desktop menu is hidden */
+    display: none;
   }
   #hamburger-nav {
-    display: flex; /* Ensure hamburger menu is visible */
-    /* You can add more styles here to make it look better, like positioning, background-color, etc. */
+    display: flex;
   }
   #experience,
   .experience-details-container {
@@ -44,7 +43,7 @@
     margin: 0 auto 2rem;
   }
   .about-containers {
-    /* Removed the margin-top property */
+    margin-top: 0;
   }
 }
 
