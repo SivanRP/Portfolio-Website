@@ -10,6 +10,10 @@
   #projects {
     height: fit-content;
   }
+  .section__pic-container img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -44,6 +48,10 @@
   }
   .about-containers {
     margin-top: 0;
+  }
+  .section__pic-container img {
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -90,6 +98,10 @@
     width: auto;
     height: 46vw;
     justify-content: center;
+  }
+  .section__pic-container img {
+    width: 100%;
+    height: auto;
   }
   .section__text__p2 {
     font-size: 1.25rem;
